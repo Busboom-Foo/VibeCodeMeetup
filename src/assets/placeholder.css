@@ -1,0 +1,6 @@
+/* Basic CSS for a transparent PNG */
+.placeholder {
+  width: 1px;
+  height: 1px;
+  background: transparent;
+}

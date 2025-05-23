@@ -1,0 +1,33 @@
+We will program the game fartogger, a game of frogger, but with farting. The
+frog will move forward by farting. 
+
+The player will control the frog and try to cross the road while avoiding cars.
+The player can also collect power-ups that will give them special abilities,
+such as farting in a straight line or farting in a circle. The game will have
+multiple levels, each with increasing difficulty. The player will earn points
+for each car they avoid and for each power-up they collect. The game will end
+when the player is hit by a car or runs out of time. The game will have a timer
+that counts down from 60 seconds. The player can earn extra time by collecting
+power-ups. The game will also have a high score system that keeps track of the
+player's best score. The player can compete against their friends to see who can
+get the highest score. The game will be played on a grid, with the frog starting
+at the bottom of the screen and the cars moving from the top to the bottom. The
+player will use the arrow keys to move the frog left and right, and the space
+bar to fart. The player can also use the mouse to click on power-ups to collect
+them. The game will have a simple and colorful art style, with cartoonish
+graphics and sound effects. The frog will be animated to show it farting, and
+the cars will have different designs and colors. The game will also have a
+catchy soundtrack that will play in the background. 
+
+But the most important part of the game is the farting. The player will be able to
+fart in different ways, such as a short fart, a long fart, or a fart that goes
+in a circle. The player can also collect different types of farts, such as
+super farts, mega farts, and ultra farts. Each type of fart will have a
+different effect on the game, such as making the frog move faster or slowing
+down the cars. The player can also use the farts to create obstacles for the
+cars, such as fart clouds that will block the cars' path.
+
+This will be a javascript game, but written in Typescript. There is a single
+index.html file, in the root of the project, that will load the game. The game
+will be a single page application, but may involve multiple Typescript files. I
+also want an NPM package.json file, with a start script that will run the game.
