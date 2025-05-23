@@ -11,7 +11,7 @@ import { HighScoreManager } from '../utils/HighScoreManager';
 export class Game {
   private canvas: HTMLCanvasElement;
   private ctx: CanvasRenderingContext2D;
-  private frog: Frog;
+  private frog!: Frog;  // Using ! to indicate it will be initialized before use
   private cars: Car[] = [];
   private powerUps: PowerUp[] = [];
   private fartClouds: any[] = [];
@@ -25,7 +25,7 @@ export class Game {
   private collisionDetector: CollisionDetector;
   private soundManager: SoundManager;
   private highScoreManager: HighScoreManager;
-  private currentLevel: Level;
+  private currentLevel!: Level;  // Using ! to indicate it will be initialized before use
   private levels: Level[] = [];
 
   constructor() {
