@@ -2,9 +2,10 @@
   "name": "fartogger",
   "version": "1.0.0",
   "description": "A Frogger-like game with farting mechanics",
-  "main": "dist/bundle.js",
+  "main": "bundle.js",
   "scripts": {
     "build": "webpack",
+    "build:pages": "webpack --mode production",
     "start": "webpack serve --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,6 +1,7 @@
 # Fartogger
 
-A humorous take on the classic Frogger game, where the frog moves by farting. This game is built with TypeScript and HTML5 Canvas.
+A humorous take on the classic Frogger game, where the frog moves by farting.
+This game is built with TypeScript and HTML5 Canvas.
 
 ## Game Features
 
@@ -39,6 +40,21 @@ Alternatively, you can use the convenience script:
 # Build and run the game
 ./build-and-run.sh
 ```
+
+## Deploying to GitHub Pages
+
+This game is configured to work with GitHub Pages out of the box. Follow these steps to deploy:
+
+1. Push the repository to GitHub
+2. Build the production version of the game:
+   ```bash
+   npm run build:pages
+   ```
+3. Commit the build artifacts (including bundle.js and assets)
+4. In your GitHub repository settings, enable GitHub Pages and set the source to the main branch
+5. Your game will be available at `https://[your-username].github.io/[repository-name]/`
+
+Note: The .nojekyll file is included to ensure GitHub Pages doesn't process the site with Jekyll.
 
 ## Game Controls
 

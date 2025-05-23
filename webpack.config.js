@@ -24,21 +24,24 @@ module.exports = {
   },
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, '.'),
+    publicPath: './'
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './index.html'
+      template: './index.html',
+      filename: 'index.html'
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'src/assets', to: 'assets' }
+        { from: 'src/assets', to: 'assets' },
+        { from: '.nojekyll', to: '.nojekyll', toType: 'file' }
       ]
     })
   ],
   devServer: {
     static: {
-      directory: path.join(__dirname, 'dist'),
+      directory: path.join(__dirname, '.'),
     },
     compress: true,
     port: 8080,
